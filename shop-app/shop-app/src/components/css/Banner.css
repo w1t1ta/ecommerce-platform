@@ -1,0 +1,63 @@
+/* Slider Banner */
+.slider {
+  position: relative;
+  width: 100%;
+  max-width: 1250px;
+  overflow: hidden;
+  margin: auto;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.slide {
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+.slide img {
+  width: 100%;
+  display: block;
+}
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  z-index: 10;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #b52b59b9;
+  border-radius: 3px;
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  z-index: 10;
+  transition: background-color 0.3s ease; /* เพิ่ม transition สำหรับเอฟเฟกต์ */
+}
+
+.prev:hover, .next:hover {
+  background-color: #b52b58; /* เปลี่ยนสีเมื่อ hover */
+}

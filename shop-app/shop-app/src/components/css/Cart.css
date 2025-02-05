@@ -1,0 +1,134 @@
+.cart-content {
+    position: relative; /* เพิ่มตำแหน่ง relative เพื่อให้ .cart-total-container อยู่ภายใน */
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-bottom: 100px; /* ให้มีพื้นที่เพิ่มด้านล่างเพื่อให้ .cart-total-container มีพื้นที่ */
+  }
+  
+  .form-section, .summary-section {
+    flex: 1;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+    display: block;
+  }
+  
+  input[type="text"], input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .place-order-btn {
+    background-color: #cc1f46;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .place-order-btn:hover {
+    background-color: #b01d3d;
+  }
+  
+  .order-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .order-item img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  
+  
+  .cart-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .page-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .cart-content h2 {
+    
+    margin-bottom: 20px;
+  }
+  
+  .cart-items-list {
+    margin-top: 20px;
+  }
+  
+  .cart-item-row {
+    display: flex;
+    justify-content: space-between; /* จัดข้อมูลให้อยู่บรรทัดเดียวห่างกันพอดี */
+    padding: 30px 0;
+    border-bottom: 1px solid #ddd;
+  }ม
+  
+  .cart-item-row span, .cart-item-row input {
+    margin-right: 10px; /* เพิ่มช่องว่างระหว่างข้อมูล */
+  }
+  
+  .cart-item-row input {
+    width: 50px;
+    text-align: center;
+  }
+  
+  
+  
+  
+  
+  /* เพิ่มสไตล์สำหรับ cart-total-container */
+  .cart-total-container {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 100%; /* ใช้ความกว้างเต็มคอนเทนเนอร์ */
+    z-index: 1;
+    margin-top: 20px; /* เพิ่มระยะห่างจากเนื้อหาด้านบน */
+  }
+  .cart-content {
+    position: relative; /* เพิ่มการกำหนดตำแหน่ง relative */
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* สไตล์สำหรับรายละเอียดใน cart total */
+  .cart-total-details {
+    margin-bottom: 20px;
+  }
+  
+  .cart-total-details div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .cart-total-details span {
+    font-size: 14px;
+  }

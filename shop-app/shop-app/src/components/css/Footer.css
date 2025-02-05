@@ -1,0 +1,63 @@
+/* Footer */
+.footer {
+  display: flex;
+  background-color: #b52b58;
+  justify-content: space-between;
+  color: white;
+  text-align: center;
+}
+
+.footer-column {
+  flex: 1;
+  margin: 20px 0;
+}
+
+.column-head {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column h5 {
+  font-size: 12px;
+  color: #ffffff;
+  font-weight: 100;
+}
+
+.footer-column ul li {
+  margin-bottom: 5px;
+}
+
+.footer-column ul li a {
+  font-size: 12px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+
+/* Footer page */
+/* ProductDetailspage */
+/* ปรับสไตล์ปุ่มใน related products */
+.related-product-item button {
+  background-color: #b52b58;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.related-product-item button:hover {
+  background-color: #a0244d; /* เปลี่ยนสีเมื่อ hover */
+}

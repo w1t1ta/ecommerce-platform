@@ -1,0 +1,29 @@
+/* Featured Section */
+.featured {
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    margin: 0 80px;
+    border-top: 1.5px solid #ddd;
+  }
+  
+  .featured-text{
+    font-size: 25px;
+  }
+  
+  .featured-items {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    border-bottom: 1.5px solid #ddd;
+  }
+  
+  .featured .item {
+    width: 24%;
+    background: #333;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+  }

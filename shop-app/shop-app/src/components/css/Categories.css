@@ -1,0 +1,184 @@
+/* Categories Section */
+.Categories-container {
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  border-top: 1.5px solid #ddd;
+}
+
+.Categories-heading {
+  text-align: left;
+  font-size: 1.8em;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.Categories {
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.Categories-text {
+  font-size: 25px;
+  padding-bottom: 50px;
+}
+
+.Categories-item {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.Categories-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+
+.Categories-item:hover {
+  transform: scale(1.05);
+}
+
+.Categories-item:hover img {
+  transform: scale(1.1);
+}
+
+.Categories-name {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+.all-Categories-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+  text-decoration: none;
+  /* เพิ่มระยะห่างด้านบน */
+}
+
+.button-circle {
+  width: 100px;
+  /* ขนาดของปุ่ม */
+  height: 50px;
+  /* ขนาดของปุ่ม */
+  border-radius: 3px;
+  /* ทำให้เป็นวงกลม */
+  background-color: #b52b58;
+  /* สีพื้นหลังที่โปร่งใส */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  /* เปลี่ยนเคอร์เซอร์ */
+  transition: background-color 0.3s;
+  /* เพิ่มการเปลี่ยนแปลงสีเมื่อ hover */
+}
+
+.button-circle-text {
+  text-align: center;
+  /* จัดข้อความให้อยู่ตรงกลาง */
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+}
+
+.button-circle:hover {
+  transform: scale(1.05);
+}
+
+
+/* Category page*/
+.category-container {
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  border-top: 1.5px solid #ddd;
+}
+
+.category-heading {
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.category {
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.category-text {
+  font-size: 25px;
+  padding-bottom: 50px;
+}
+
+.category-item {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.category-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+
+.category-item:hover {
+  transform: scale(1.05);
+}
+
+.category-item:hover img {
+  transform: scale(1.1);
+}
+
+.category-name {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.all-category-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  /* เพิ่มระยะห่างด้านบน */
+}

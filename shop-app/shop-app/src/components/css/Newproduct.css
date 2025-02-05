@@ -1,0 +1,76 @@
+/* NewProduct.css */
+.product-list {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* จัดให้อยู่ตรงกลางในแนวตั้ง */
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.loading, .error {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+
+/* Styling for the product cards container */
+.product-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* สร้าง grid layout */
+  gap: 20px; /* เว้นระยะห่างระหว่างการ์ด */
+  justify-content: center; /* จัดการ์ดให้อยู่ตรงกลางในแนวนอน */
+  align-items: center; /* จัดการ์ดให้อยู่ตรงกลางในแนวตั้ง */
+  max-width: 1200px; /* จำกัดความกว้างของ container */
+  width: 100%;
+  margin: 0 auto; /* จัดให้อยู่ตรงกลาง */
+}
+
+/* Styling for each product card */
+.product-card {
+  background-color: #aca4aa;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 100%; /* ปรับให้การ์ดมีความกว้างเต็มที่ใน grid */
+  max-width: 250px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling for the product image */
+.product-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 2px solid #f1f1f1;
+}
+
+/* Styling for product name and price */
+.product-card h5 {
+  font-size: 1.1rem;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.product-price {
+  font-size: 1rem;
+  color: #2d2d2d;
+  margin: 5px 0;
+}
+
+.product-seller {
+  font-size: 0.9rem;
+  color: #777;
+  margin-bottom: 10px;
+}

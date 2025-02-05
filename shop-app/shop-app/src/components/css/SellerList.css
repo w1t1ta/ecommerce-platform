@@ -1,0 +1,70 @@
+/* src/components/SellerList.css */
+
+.seller-container {
+  padding: 20px;
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.seller-heading {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.seller-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  justify-items: center;
+  max-width: 1200px; /* กำหนดขนาดความกว้างสูงสุดให้กับ seller-list เพื่อไม่ให้เนื้อหาขยายเต็มหน้าจอ */
+  width: 100%;
+}
+
+.seller-card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  max-width: 250px; /* จำกัดความกว้างสูงสุดของการ์ด */
+  height: 250px;
+}
+
+.seller-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.seller-name {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.seller-contact {
+  color: #777;
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.view-details {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #007bff;
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+
+.view-details:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}

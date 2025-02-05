@@ -1,0 +1,35 @@
+/* Search page*/
+.Searchcomp-results-container{
+    text-align: center;
+  }
+  
+  .Searchcomp-results-container p{
+    padding-top: 168px;
+    padding-bottom: 168px;
+    font-size: 30px;
+  }
+  
+  .Searchcomp-results-container h2{
+    padding-top: 135px;
+    padding-bottom: 135px;
+    font-size: 40px;
+  }
+  
+  .search-results {
+    margin-top: 20px;
+  }
+  
+  .result-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .result-item h3 {
+    margin: 0;
+  }
+  
+  .result-item p {
+    margin: 5px 0 0;
+    color: #555;
+  }
+  

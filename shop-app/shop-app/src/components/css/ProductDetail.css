@@ -1,0 +1,14 @@
+.related-product-item button {
+    background-color: #b52b58;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .related-product-item button:hover {
+    background-color: #a0244d; /* เปลี่ยนสีเมื่อ hover */
+  }
